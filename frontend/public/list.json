@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "lorem text",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 11,
+        "name": "The Free Adventure",
+        "title": "Explore the unknown",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 12,
+        "name": "Children's Tales",
+        "title": "A collection of bedtime stories",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 13,
+        "name": "Poetry Collection",
+        "title": "Rhythms of the soul",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 14,
+        "name": "Historical Fiction",
+        "title": "A journey through time",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 15,
+        "name": "Classic Literature",
+        "title": "Timeless stories",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 2,
+        "name": "Python Programming",
+        "title": "Learn Python in 30 days",
+        "price": 19.99,
+        "category": "Course",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 3,
+        "name": "JavaScript for Beginners",
+        "title": "Start coding today",
+        "price": 14.99,
+        "category": "Course",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 4,
+        "name": "Deep Learning Guide",
+        "title": "Master deep learning",
+        "price": 29.99,
+        "category": "Course",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 5,
+        "name": "Advanced JavaScript",
+        "title": "Unlock JavaScript secrets",
+        "price": 24.99,
+        "category": "Course",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 6,
+        "name": "Introduction to HTML & CSS",
+        "title": "Build your first website",
+        "price": 9.99,
+        "category": "Course",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 7,
+        "name": "Data Science Basics",
+        "title": "Your first step into Data Science",
+        "price": 19.99,
+        "category": "Course",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 8,
+        "name": "The Great Adventure",
+        "title": "An epic journey",
+        "price": 5.99,
+        "category": "Book",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 9,
+        "name": "The Mystery Novel",
+        "title": "A thrilling mystery",
+        "price": 7.99,
+        "category": "Book",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    },
+    {
+        "id": 10,
+        "name": "Web Development 101",
+        "title": "Building websites from scratch",
+        "price": 21.99,
+        "category": "Course",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1741858238~exp=1741861838~hmac=b3020f45ef87f39a9861f69b6cd92a0641e3ac720f520b22e4223e97c841ea9e&w=1380"
+    }
+]
