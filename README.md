@@ -52,7 +52,7 @@ npm install
 In the backend directory, change the contents of .env file for the dollowing environment variables:
 ```
 MONGODB_URI=your-mongodb-uri
-PORT=400`
+PORT=4001
 ```
 6. Start the Project:
 - Backend
