@@ -33,7 +33,7 @@ function Login() {
         if (err.response) {
           console.log(err);
           toast.error("Error: " + err.response.data.message);
-          setTimeout(() => {}, 2000);
+          setTimeout(() => { }, 2000);
         }
       });
   };

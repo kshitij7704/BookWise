@@ -2,8 +2,12 @@ import React, { useEffect, useState } from "react";
 import Cards from "./Cards";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { useAuth } from "../context/AuthProvider";
+
 function Course() {
   const [book, setBook] = useState([]);
+  const [authUser] = useAuth(); // Access authUser from the AuthContext
+
   useEffect(() => {
     const getBook = async () => {
       try {
@@ -16,13 +20,22 @@ function Course() {
     };
     getBook();
   }, []);
+
+  if (!authUser) {
+    return (
+      <div className="max-w-screen-2xl container mx-auto text-center mt-15 pt-15">
+        <h2 className="text-2xl md:text-4xl">Please log in to see the courses.</h2>
+      </div>
+    ); // Show this message if the user is not logged in
+  }
+
   return (
     <>
-      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
-        <div className="mt-28 items-center justify-center text-center">
-          <h1 className="text-2xl  md:text-4xl">
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+        <div className="mt-15 pt-15 items-center justify-center text-center">
+          <h1 className="text-2xl md:text-4xl">
             We're delighted to have you{" "}
-            <span className="text-pink-500"> Here! :)</span>
+            <span className="text-pink-500">Here! :)</span>
           </h1>
           <p className="mt-12">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,

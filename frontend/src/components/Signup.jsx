@@ -53,8 +53,8 @@ function Signup() {
     <>
       <div className="flex h-screen items-center justify-center">
         <div className=" w-[600px] ">
-        <div style={modalBoxStyle}>
-        <form onSubmit={handleSubmit(onSubmit)} method="dialog">
+          <div style={modalBoxStyle}>
+            <form onSubmit={handleSubmit(onSubmit)} method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <Link
                 to="/"
