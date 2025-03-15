@@ -21,8 +21,6 @@ BookWise is a web application designed to help individuals improve their skills 
 - **MongoDB**: NoSQL database for storing user and course data.
 - **Mongoose**: MongoDB object modelling tool for working with MongoDB.
 - **bcryptjs**: Hashing and securing user passwords.
-### Authentication:
-- **JWT (JSON Web Tokens)**: Manages user authentication and session handling.
 
 ## Installation
 ### Prerequisites
@@ -92,36 +90,28 @@ Here are some previews of the application:
 
 ## Folder Structure
 ```
-/frontend
-    /src
-        /components
-        /pages
-        /assets
-        /services
-        App.js
-        index.js
-    /public
-        index.html
-        /assets
-        /images
-        ...
-    package.json
-    tailwind.config.js
 /backend
-    /models
-        user.model.js
-        course.model.js
-    /controllers
-        user.controller.js
-        course.controller.js
-    /routes
-        user.route.js
-        course.route.js
-    /config
-        db.js
+    /model
+    /controller
+    /route
     .env
     package.json
     index.js
+
+/frontend
+    /public
+    /src
+        /components
+        /context
+        /courses
+        /home
+        App.css
+        App.jsx
+        index.css
+        main.jsx
+    index.html
+    package.json
+    vite.config.js
 ```
 
 ## API Endpoints
